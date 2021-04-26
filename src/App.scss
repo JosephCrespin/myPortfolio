@@ -1,0 +1,23 @@
+@import './styles/core/';
+@import './styles/core/reset';
+@import './styles/core/classes';
+
+html {
+  body {
+    width: 100%;
+    font-family: $font-main;
+    font-size: $font-size;
+    background-color: $color-dark1;
+    color: $color-light3;
+    #root {
+      overflow-x: hidden;
+      position: relative;
+      min-height: 100vh;
+    }
+  }
+}
+
+::selection {
+  background-color: $color-secondary-purple;
+  color: $color-light3;
+}

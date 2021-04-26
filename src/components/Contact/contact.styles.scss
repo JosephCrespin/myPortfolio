@@ -1,0 +1,56 @@
+@import '../../styles/core';
+
+.contact {
+  margin: 0 0 75px;
+  padding: 75px 6%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  &__container {
+    width: 100%;
+
+    background-color: rgba($color-dark3, 0.5);
+    padding: calc(max(10px, 2vw)) 4%;
+    border-radius: 10px;
+    &__title {
+      text-align: center;
+      font-size: calc(max(36px, 3.2vw));
+      margin: 0 0 15px;
+    }
+    &__socialContainer {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      &__title {
+        text-align: center;
+        font-size: calc(max(28px, 2.4vw));
+        margin: 25px 0 10px;
+      }
+      &__list {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        li {
+          font-size: calc(max(30px, 3vw));
+          a {
+            padding: 10px;
+            border-radius: 6px;
+            transition: all 0.2s ease-out;
+            &:hover {
+              color: $color-secondary-purple;
+              filter: drop-shadow(0 0 2px $color-secondary-purple);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include desktop {
+  .contact {
+    padding: 75px 12%;
+  }
+}

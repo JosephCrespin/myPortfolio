@@ -1,0 +1,30 @@
+@import '../../../styles/core';
+
+.projectsList {
+  width: 100%;
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  &__element {
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transition: all 0.2s ease-out;
+    &:hover {
+      background-color: rgba($color-dark3, 1);
+      transform: scale(1.02);
+    }
+  }
+}
+
+@include tablet {
+  .projectsList {
+    &__element {
+      width: 50%;
+    }
+  }
+}

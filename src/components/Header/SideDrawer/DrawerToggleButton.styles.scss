@@ -1,0 +1,21 @@
+@import "../../../styles/core";
+
+.toggle-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 26px;
+  width: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  &__line {
+    width: 26px;
+    height: 3px;
+    background: $color-light3;
+    transition: all 0.15s ease-out;
+  }
+}
+.color-bg-dark1 {
+  background: $color-dark1;
+}

@@ -1,0 +1,42 @@
+@import '../../styles/core';
+
+.hero {
+  padding: 0 6%;
+  margin-bottom: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  &__container {
+    width: 100%;
+    background-color: rgba($color-dark3, 0.5);
+    padding: calc(max(10px, 2vw)) 4%;
+    border-radius: 10px;
+    &__title {
+      text-align: left;
+      color: $color-main2;
+      font-size: calc(max(16px, 2vw));
+    }
+    &__body {
+      padding-top: 10px;
+      text-align: right;
+      font-size: calc(max(22px, 3vw));
+      line-height: 1.15;
+    }
+  }
+  &__circle {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: $color-dark2;
+    z-index: -2;
+  }
+}
+
+@include desktop {
+  .hero {
+    padding: 0 12%;
+  }
+}

@@ -1,0 +1,67 @@
+@import '../../../styles/core';
+
+.toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba($color-dark2, 1);
+  height: 60px;
+  z-index: 200;
+  &__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0 20px;
+    &__logo {
+      font-family: $font-secondary;
+
+      & a {
+        font-size: 35px;
+      }
+    }
+    &__items {
+      display: none;
+      height: 100%;
+      & ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        height: 100%;
+        & li {
+          padding: 0 calc(max(20px, 1.5vw));
+          transition: all 0.2s ease-out;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: calc(max(22px, 2vw));
+          &:hover,
+          &:active {
+            background-color: $color-dark2;
+            color: $color-main2;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include tablet {
+  .toolbar {
+    &__navigation {
+      flex-direction: row;
+      &__items {
+        display: block;
+      }
+      &__toggle-button {
+        display: none;
+      }
+      &__logo {
+        margin-left: 0;
+      }
+    }
+  }
+}

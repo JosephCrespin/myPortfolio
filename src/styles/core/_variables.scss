@@ -1,0 +1,30 @@
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap");
+$font-main: "Josefin Sans", sans-serif;
+$font-secondary: "Pacifico", cursive;
+$font-size: 22px;
+
+// colors
+// Polar Night
+$color-dark1: #2e3440;
+$color-dark2: #3b4252;
+$color-dark3: #434c5e;
+$color-dark4: #4c566a;
+//Snow Storm
+$color-light1: #d8dee9;
+$color-light2: #e5e9f0;
+$color-light3: #eceff4;
+//Frost (Blue)
+$color-main1: #5e81ac;
+$color-main2: #81a1c1;
+//Aurora
+$color-secondary-red: #bf616a;
+$color-secondary-orange: #d08770;
+$color-secondary-yellow: #ebcb8b;
+$color-secondary-green: #a3be8c;
+$color-secondary-purple: #b48ead;
+
+// Breakpoints
+$tablet: 768px;
+$desktop: 1024px;
