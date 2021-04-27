@@ -14,7 +14,7 @@ class App extends Component {
       <React.Fragment>
         <Helmet htmlAttributes>
           {/* <!-- Primary Meta Tags --> */}
-          <title>Luci Codes</title>
+          <title>JosephCrespin</title>
           <meta name='title' content='Luci Codes' />
           <meta
             name='description'
