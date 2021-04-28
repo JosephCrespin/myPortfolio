@@ -36,12 +36,12 @@ const AboutMe = () => {
             I've also enrolled on courses such as to become a Front-End
             Developer in{' '}
             <a
-              href='https://adalab.es/'
-              title='Go to Adalab'
+              href='http://www.factoriaf5.org/'
+              title='Go to FactoriaF5'
               target='_blank'
               rel='noopener noreferrer'
             >
-              Adalab
+              FactoriaF5
             </a>
             , or a more intensive course that I'm currently doing to become a
             Computer Scientist in{' '}

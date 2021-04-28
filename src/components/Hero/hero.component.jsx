@@ -6,7 +6,7 @@ const Hero = () => {
     <section className='hero'>
       <div className='hero__container'>
         <small className='hero__container__title'>
-          (Hi, I'm Lucía Martínez)
+          (Hi, I'm Joseph Crespin)
         </small>
         <p className='hero__container__body'>
           I'm a web developer living in Spain. Currently in love with React.js,

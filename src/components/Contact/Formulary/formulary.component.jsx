@@ -19,7 +19,7 @@ const Formulary = () => {
   const handleOnSubmit = (values, actions) => {
     axios({
       method: 'POST',
-      url: 'https://formspree.io/mayprdzq',
+      url: 'https://formspree.io/f/xknkoonr',
       data: values,
     })
       .then((response) => {

@@ -9,6 +9,7 @@ html {
     font-size: $font-size;
     background-color: $color-dark1;
     color: $color-light3;
+    cursor: cell;
     #root {
       overflow-x: hidden;
       position: relative;

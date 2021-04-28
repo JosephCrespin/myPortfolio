@@ -21,7 +21,7 @@ const Contact = () => {
           <ul className='contact__container__socialContainer__list'>
             <li>
               <a
-                href='https://www.github.com/lucimart'
+                href='https://www.github.com/JosephCrespin'
                 title='Go to my Github page'
                 target='_blank'
                 rel='noopener noreferrer'
@@ -31,7 +31,7 @@ const Contact = () => {
             </li>
             <li>
               <a
-                href='https://www.linkedin.com/in/lucimart'
+                href='https://www.linkedin.com/in/josephcrespin'
                 title='Go to my LinkedIn page'
                 target='_blank'
                 rel='noopener noreferrer'
@@ -41,7 +41,7 @@ const Contact = () => {
             </li>
             <li>
               <a
-                href='https://www.twitter.com/lu_dmr'
+                href='https://www.twitter.com/IsmaX321'
                 title='Go to my Twitter page'
                 target='_blank'
                 rel='noopener noreferrer'
