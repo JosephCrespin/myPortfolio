@@ -14,12 +14,12 @@
     &__title {
       text-align: left;
       color: $color-main2;
-      font-size: calc(max(16px, 2vw));
+      font-size: calc(max(16px, 1vw));
     }
     &__body {
       padding-top: 10px;
       text-align: center;
-      font-size: calc(max(15px, 2vw));
+      font-size: calc(max(15px, 1.5vw));
       line-height: 1.15;
     }
   }
