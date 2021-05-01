@@ -9,11 +9,9 @@ const Hero = () => {
           (Hi, I'm Joseph Crespin)
         </small>
         <p className='hero__container__body'>
-          I'm a web developer living in Spain. Currently in love with React.js,
-          Node.js and Express.js. Wanting to create beautiful, responsive and
-          useful sites
+          I'm a web developer living in Spain. Currently in love with JavaScript, React.js and laravel Wanting to create beautiful and responsive sites
           <span role='img' aria-label='✨ Sparkles Emoji'>
-            ✨
+            👨🏽‍🎤
           </span>
         </p>
       </div>

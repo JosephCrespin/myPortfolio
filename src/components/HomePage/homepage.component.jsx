@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './homepage.styles.scss';
 import Hero from '../Hero/hero.component';
 import Projects from '../Projects/projects.component';
-import AboutMe from '../AboutMe/aboutme.component';
 import Contact from '../Contact/contact.component';
 import Particles from "react-tsparticles";
 import particles from '../../configs/particles.json'
@@ -32,7 +31,6 @@ const HomePage = () => {
     <main className='homepage'>
     <Hero />
     <Projects />
-    <AboutMe />
     <Contact />
   </main>
   <Particles
