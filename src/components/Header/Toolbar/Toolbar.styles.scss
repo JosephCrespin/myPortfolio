@@ -16,10 +16,11 @@
     justify-content: space-between;
     padding: 0 20px;
     &__logo {
-      font-family: $font-secondary;
+      margin-top: 10px;
+      margin-bottom: 10px;
 
       & a {
-        font-size: 35px;
+        font-size: 10px;
       }
     }
     &__items {
@@ -37,7 +38,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          font-size: calc(max(22px, 2vw));
+          font-size: calc(max(18px, 0vw));
           &:hover,
           &:active {
             background-color: $color-dark2;
