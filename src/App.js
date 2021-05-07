@@ -15,10 +15,10 @@ class App extends Component {
         <Helmet htmlAttributes>
           {/* <!-- Primary Meta Tags --> */}
           <title>JosephCrespin</title>
-          <meta name='title' content='Luci Codes' />
+          <meta name='title' content='Joseph' />
           <meta
             name='description'
-            content="Lucía Martínez's Web Developer Portfolio."
+            content="Aguacate's Web Developer Portfolio."
           />
   
         </Helmet>

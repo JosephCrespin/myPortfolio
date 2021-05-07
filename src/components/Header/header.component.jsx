@@ -25,7 +25,6 @@ class Header extends Component {
   render() {
     const links = [
       ['projects', '/#projects'],
-      ['about me', '/#about-me'],
       ['blog', '/blog'],
       ['contact', '/#contact'],
     ].map((link, index) => (
