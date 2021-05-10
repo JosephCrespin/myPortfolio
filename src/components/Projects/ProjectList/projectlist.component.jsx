@@ -9,7 +9,7 @@ const ProjectList = () => {
     <li className='projectsList__element' key={index}>
       <Project
         title={project.title}
-        images={project.Images}
+        image={project.image}
         description={project.description}
         technologies={project.technologies}
         site={project.site}

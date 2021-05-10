@@ -26,13 +26,12 @@ const Blog = () => {
     height={docHeight - 0.2*docHeight}
     options={particles} />
     <main className='blog'>
-       <img alt="blog" src="../../images/blog.gif" width="65px"></img>
+       
       <p>
-        On Construction, for you{' '}
-        <span role='img' aria-label='😉 Wink Emoji'>
-          😉
-        </span>
+        On Construction
+        <img alt="blog" src="/blog.gif" width="100px"></img>
       </p>
+      
     </main>
     <Particles
     className={"particleBottom"}
