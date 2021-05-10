@@ -24,7 +24,7 @@ const toolbar = ({ drawerClickHandler, isSideDrawerOpen, links }) => (
             })
           }
         >
-          <img  alt="aguacate" src="aguacate.png" width="65px"></img>
+          <img alt="aguacate" src="aguacate.png" width="65px"></img>
         </Link>
       </div>
       <div className='toolbar__navigation__items'>

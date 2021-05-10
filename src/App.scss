@@ -9,7 +9,8 @@ html {
     font-size: $font-size;
     background-color: $color-dark1;
     color: $color-light3;
-    cursor: cell;
+    cursor: url(https://unpkg.com/nes.css@latest/assets/cursor.png), progress;  
+    
     #root {
       overflow-x: hidden;
       position: relative;

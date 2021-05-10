@@ -21,6 +21,7 @@ class App extends Component {
             content="Aguacate's Web Developer Portfolio."
           />
   
+        <div class="nes-pointer"></div>
         </Helmet>
         <Header />
         <Switch>
