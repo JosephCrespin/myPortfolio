@@ -5,31 +5,31 @@ import imgthree from '../../../images/projects/demoGifClocky.gif';
 
 const data = [
   {
-    title: 'InfiniteBlocks',
+    title: 'RoleChanger',
     technologies: ['html5', 'css3', 'sass', 'js'],
     description:
       'In this project I design a dashboard where an administrator can create, edit, delete and assign roles to any user.',
     image:imgone,
-    site: 'https://josephcrespin.github.io/InfiniteBlocks/',
-    source: 'https://github.com/JosephCrespin/InfiniteBlocks',
+    site: 'https://github.com/JosephCrespin/RoleChangerDocker',
+    source: 'https://github.com/JosephCrespin/RoleChangerDocker',
   },
    {
     title: 'InfiniteBlocks',
     technologies: ['html5', 'css3', 'sass', 'js'],
     description:
-      'Project based on simon game where you have to follow patterns and remember them to win',
+      'Project based on simon game where you have to follow patterns and remember them to win.',
     image:imgtwo,
     site: 'https://josephcrespin.github.io/InfiniteBlocks/',
     source: 'https://github.com/JosephCrespin/InfiniteBlocks',
   },
   {
-    title: 'InfiniteBlocks',
+    title: 'Clocky',
     technologies: ['html5', 'css3', 'sass', 'js'],
     description:
-      'Project based on simon game where you have to follow patterns and remember them to win',
+      'LittleTimer made with JS',
     image:imgthree,
-    site: 'https://josephcrespin.github.io/InfiniteBlocks/',
-    source: 'https://github.com/JosephCrespin/InfiniteBlocks',
+    site: 'https://github.com/JosephCrespin/Clocky',
+    source: 'https://github.com/JosephCrespin/Clocky',
   },
   
 ];

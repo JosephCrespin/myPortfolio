@@ -43,20 +43,20 @@ const Formulary = () => {
           <div className='formulary__fieldWrapper'>
             <div>
               <label htmlFor='name'>Name:</label>
-              <Field id='name' type='text' name='name' />
+              <Field placeholder="For example @Aguacate" id='name' type='text' name='name' />
             </div>
             <ErrorMessage name='name' className='errorMsg' component='p' />
           </div>
           <div className='formulary__fieldWrapper'>
             <div>
               <label htmlFor='email'>Email:</label>
-              <Field id='email' type='email' name='email' />
+              <Field placeholder="For example my@email.com" id='email' type='email' name='email' />
             </div>
             <ErrorMessage name='email' className='errorMsg' component='p' />
           </div>
           <div className='formulary__fieldWrapper'>
             <label htmlFor='message'>Message:</label>
-            <Field id='message' name='message' component='textarea' />
+            <Field  placeholder="I like your website " id='message' name='message' component='textarea' />
             <ErrorMessage name='message' className='errorMsg' component='p' />
           </div>
           <button type='submit' disabled={isSubmitting}>

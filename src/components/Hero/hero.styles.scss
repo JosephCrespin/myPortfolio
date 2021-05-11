@@ -1,8 +1,20 @@
 @import '../../styles/core';
 
-
-
-
+.cv{
+    color: $color-dark2;
+    padding: 10px 10px;
+    font-size: 30px;
+    font-family: $font-secondary;
+    border-radius: 6px;
+    border: 2px solid $color-dark2;
+    
+    transition: all 0.2s ease-out;
+    &:hover {
+      background-color: $color-dark2;
+      color: $color-light3;
+      box-shadow: 0 0 5px 0 $color-dark2;
+    }
+  }
 .hero {
   padding: 0 6%;
   margin-bottom: 100px;
@@ -17,15 +29,15 @@
     &__title {
       text-align: left;
       font-family: $font-secondary;
-      color: $color-dark2;
-      font-size: calc(max(40px, 0.5vw));
+      color: $color-light1;
+      font-size: calc(max(50px, 0.5vw));
     }
     &__body {
       padding-top: 10px;
       text-align: center;
       font-family: $font-secondary;
       color: $color-dark2;
-      font-size: calc(max(15px, 1.5vw));
+      font-size: calc(max(40px, 1.5vw));
       line-height: 1.15;
     }
   }

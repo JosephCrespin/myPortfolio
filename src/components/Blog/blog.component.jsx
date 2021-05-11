@@ -27,9 +27,12 @@ const Blog = () => {
     options={particles} />
     <main className='blog'>
 
-      
-        <img  alt="simpsons" src="/Simpsons.gif" width="200px"></img>
-        <span className="SimpsonsGif">Please don't put pressure on me, this section is still under construction</span>
+        <div
+         className="SimpGif"><img alt="simpsons" src="/Simpsons.gif" width="300px"></img> 
+         <p className="advice">Please don't put pressure on me, this section is still under construction</p>
+        </div>
+       
+        
      
       
     </main>

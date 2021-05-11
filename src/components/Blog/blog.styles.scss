@@ -6,13 +6,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: $font-secondary;
+  font-size: 35px;
+
 }
-.SimpsonsGif{
-    align-items: center;
+.SimpGif{
+  align-items: center;
   justify-content: center;
   display: flex;
+  margin-bottom: 10vh;
   flex-direction: column
-    
+}
+.advice{
+  margin-left: 25px;
+  
 }
 .particleTop {
   z-index: -2;

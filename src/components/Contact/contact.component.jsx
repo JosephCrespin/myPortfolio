@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <section className='contact' id='contact'>
       <div className='contact__container'>
-        <h2 className='contact__container__title'>contact</h2>
+        <h2 className='contact__container__title'>Need to reach? I'm one click away!</h2>
         <Formulary />
         <div className='contact__container__socialContainer'>
           <h3 className='contact__container__socialContainer__title'>

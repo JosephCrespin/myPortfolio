@@ -10,7 +10,7 @@
   overflow: hidden;
   & #header-wave {
     path {
-      animation: wave__header 18s ease-in-out infinite alternate;
+      animation: wave__header 15s ease-in-out infinite alternate;
     }
     fill: rgba($color-dark2, 1);
     height: 120%;

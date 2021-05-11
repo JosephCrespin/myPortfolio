@@ -8,9 +8,11 @@
   flex-direction: column;
   align-items: center;
   &__title {
-    font-size: calc(max(24px, 2vw));
+    font-size: calc(max(25px, 2vw));
     font-family: $font-secondary;
     color: $color-dark2;
+    margin-bottom: 20px;
+    
   }
   &__imageContainer {
     cursor: url(https://unpkg.com/nes.css@latest/assets/cursor-click.png), progress; 
@@ -22,20 +24,23 @@
   }
   &__sourceAnchor {
     margin-top: 3px;
-    color: $color-main2;
-    border: 2px solid $color-main2;
+    color: $color-dark2;
+    font-family: $font-secondary;
+    font-size: 30px;
+    border: 2px solid $color-dark2;
     border-radius: 6px;
     padding: 3px;
     transition: all 0.2s ease-out;
+    cursor: url(https://unpkg.com/nes.css@latest/assets/cursor-click.png), progress; 
     &:hover {
-      background-color: $color-secondary-purple;
+      background-color: $color-dark2;
       color: $color-light3;
-      border: 2px solid $color-secondary-purple;
-      box-shadow: 0 0 5px $color-secondary-purple;
+      border: 2px solid $color-dark2;
+      box-shadow: 0 0 5px $color-light3;
     }
   }
   &__description {
-    font-size: calc(max(8px, 2vw));
+    font-size: calc(max(25px, 2vw));
     text-align: center;
     font-family: $font-secondary;
     color: $color-dark2;
@@ -71,6 +76,7 @@
   .project {
     &__description {
       text-align: justify;
+      font-size: 30px;
     }
   }
 }

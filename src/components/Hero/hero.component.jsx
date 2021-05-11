@@ -9,14 +9,18 @@ const Hero = () => {
     <section className='hero'>
       <div className='hero__container'>
         <small className='hero__container__title'>
-          (Hi, I'm Joseph Crespin)
+          (Hello 👋! Joseph here!)
         </small>
         <p className='hero__container__body'>
-          I'm a web developer living in Spain. Currently in love with JavaScript, React.js and laravel Wanting to create beautiful and responsive sites
+          I'm a web developer living in Spain [Barcelona]
           <span role='img' aria-label='✨ Sparkles Emoji'>
             👨🏽‍🎤
           </span>
-          <button type="button" class="nes-btn is-primary">Primary</button>
+          also , you cant download 👉🏽
+          <a className="cv"href="JosephCrespinCV.pdf" download="JosephCrespinCV.pdf">
+          <button>My CV</button>
+        </a>
+          
         </p>
         
       </div>
