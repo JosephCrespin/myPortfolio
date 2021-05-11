@@ -26,11 +26,11 @@ const Blog = () => {
     height={docHeight - 0.2*docHeight}
     options={particles} />
     <main className='blog'>
-       
-      <p>
-        On Construction
-        <img alt="blog" src="/blog.gif" width="100px"></img>
-      </p>
+
+      
+        <img  alt="simpsons" src="/Simpsons.gif" width="200px"></img>
+        <span className="SimpsonsGif">Please don't put pressure on me, this section is still under construction</span>
+     
       
     </main>
     <Particles

@@ -6,6 +6,8 @@ import HomePage from './components/HomePage/homepage.component';
 import Blog from './components/Blog/blog.component';
 import Footer from './components/Footer/footer.component';
 import { Helmet } from 'react-helmet';
+// script.js
+
 
 
 class App extends Component {

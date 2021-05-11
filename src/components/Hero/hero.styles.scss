@@ -1,6 +1,8 @@
 @import '../../styles/core';
 
 
+
+
 .hero {
   padding: 0 6%;
   margin-bottom: 100px;
@@ -14,13 +16,15 @@
     border-radius: 10px;
     &__title {
       text-align: left;
+      font-family: $font-secondary;
       color: $color-dark2;
-      font-size: calc(max(16px, 1vw));
+      font-size: calc(max(40px, 0.5vw));
     }
     &__body {
       padding-top: 10px;
       text-align: center;
       font-family: $font-secondary;
+      color: $color-dark2;
       font-size: calc(max(15px, 1.5vw));
       line-height: 1.15;
     }

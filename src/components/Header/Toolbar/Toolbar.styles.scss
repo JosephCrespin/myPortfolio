@@ -38,7 +38,8 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          font-size: calc(max(18px, 0vw));
+          font-size: calc(max(40px, 0vw));
+          font-family: $font-secondary;
           &:hover,
           &:active {
             background-color: $color-dark2;

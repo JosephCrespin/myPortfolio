@@ -1,3 +1,7 @@
+import html55 from '../../../images/html5.svg';
+
+
+
 const techs = {
   html5: {
     site: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',

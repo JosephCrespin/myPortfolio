@@ -32,6 +32,7 @@ const HomePage = () => {
     <Hero />
     <Projects />
     <Contact />
+    <div data-v-83882ec0="" class="floating_message nes-balloon from-right nes-pointer pixel_font"> Let's talk! </div>
   </main>
   <Particles
   className={"particleBottom"}

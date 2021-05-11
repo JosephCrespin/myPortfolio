@@ -1,6 +1,8 @@
 import React from 'react';
 import './hero.styles.scss';
 
+
+
 const Hero = () => {
   return (
     
@@ -14,7 +16,7 @@ const Hero = () => {
           <span role='img' aria-label='✨ Sparkles Emoji'>
             👨🏽‍🎤
           </span>
-          <button  type="button" class="nes-btn is-primary pixel_font">My CV</button>
+          <button type="button" class="nes-btn is-primary">Primary</button>
         </p>
         
       </div>
