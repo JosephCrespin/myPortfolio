@@ -1,5 +1,9 @@
 @import '../../styles/core';
-
+.textfo{
+      text-align: center;
+      margin-bottom: 20px;
+    } 
+    
 .footr {
   width: 100%;
   overflow-x: hidden;
@@ -14,8 +18,9 @@
     display: block;
     path {
       width: 200%;
-      animation: wave_footer 18s ease-in-out infinite alternate;
+      animation: wave_footer 15s ease-in-out infinite alternate;
     }
+    
   }
 }
 

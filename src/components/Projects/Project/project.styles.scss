@@ -2,7 +2,7 @@
 
 .project {
   width: 100%;
-  padding: 15px 10px;
+  padding: 10px 10px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -11,11 +11,12 @@
     font-size: calc(max(24px, 1vw));
   }
   &__imageContainer {
-    cursor: pointer;
+    cursor: url(https://unpkg.com/nes.css@latest/assets/cursor-click.png), progress; 
   }
   &__image {
     width: 100%;
     border-radius: 10px;
+    
   }
   &__sourceAnchor {
     margin-top: 3px;
@@ -32,7 +33,7 @@
     }
   }
   &__description {
-    font-size: calc(max(22px, 1vw));
+    font-size: calc(max(10px, 1vw));
     text-align: center;
     margin: 10px;
     padding: 0 10px;

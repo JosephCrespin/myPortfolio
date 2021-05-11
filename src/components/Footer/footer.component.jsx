@@ -4,7 +4,7 @@ import './footer.styles.scss';
 const Footer = () => {
   return (
     <footer className='footr'>
-        <p>hola</p>
+        <p className="textfo">with ❤️ by JosephCrespin 😊</p>
       <svg
         xmlns='http://www.w3.org/2000/svg'
         id='footer-wave'

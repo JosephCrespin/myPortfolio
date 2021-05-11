@@ -3,6 +3,7 @@ import './hero.styles.scss';
 
 const Hero = () => {
   return (
+    
     <section className='hero'>
       <div className='hero__container'>
         <small className='hero__container__title'>
@@ -13,9 +14,12 @@ const Hero = () => {
           <span role='img' aria-label='✨ Sparkles Emoji'>
             👨🏽‍🎤
           </span>
+          <button  type="button" class="nes-btn is-primary pixel_font">My CV</button>
         </p>
+        
       </div>
     </section>
+    
   );
 };
 
