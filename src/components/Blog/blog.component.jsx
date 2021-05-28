@@ -32,8 +32,6 @@ const Blog = () => {
          <p className="advice">Please don't put pressure on me, this section is still under construction</p>
         </div>
        
-        
-     
       
     </main>
     <Particles
