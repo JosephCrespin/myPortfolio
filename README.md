@@ -39,7 +39,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Demo 
 
-![DemoPortfolio](demoPortfolio.gif)
+![demoPortfolio](demoPortfolio.gif)
 
 
 
